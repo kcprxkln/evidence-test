@@ -1,0 +1,191 @@
+month,coin_name,month_change,symbol,new_coin_name
+2023-12-01,btc-bitcoin,9.39,BTC,Bitcoin
+2023-12-01,eth-ethereum,9.44,ETH,Ethereum
+2023-12-01,usdt-tether,0.07,USDT,Tether
+2023-12-01,bnb-binance-coin,36.73,BNB,Binance Coin
+2023-12-01,sol-solana,70.02,SOL,Solana
+2023-12-01,xrp-xrp,0.47,XRP,Xrp
+2023-12-01,usdc-usd-coin,0.17,USDC,Usd Coin
+2023-12-01,ada-cardano,54.86,ADA,Cardano
+2023-12-01,avax-avalanche,76.52,AVAX,Avalanche
+2023-12-01,doge-dogecoin,6.93,DOGE,Dogecoin
+2023-12-01,trx-tron,4.5,TRX,Tron
+2023-12-01,dot-polkadot,49.89,DOT,Polkadot
+2023-12-01,link-chainlink,-0.11,LINK,Chainlink
+2023-12-01,matic-polygon,21.47,MATIC,Polygon
+2023-12-01,shib-shiba-inu,24.01,SHIB,Shiba Inu
+2023-12-01,icp-internet-computer,184.06,ICP,Internet Computer
+2023-12-01,ltc-litecoin,1.96,LTC,Litecoin
+2023-12-01,dai-dai,0.23,DAI,Dai
+2023-12-01,bch-bitcoin-cash,15.16,BCH,Bitcoin Cash
+2023-12-01,leo-leo-token,-0.13,LEO,Leo Token
+2023-12-01,uni-uniswap,20.32,UNI,Uniswap
+2023-12-01,etc-ethereum-classic,15.72,ETC,Ethereum Classic
+2023-12-01,atom-cosmos,12.14,ATOM,Cosmos
+2023-12-01,xlm-stellar,7.76,XLM,Stellar
+2023-12-01,toncoin-the-open-network,-3.92,TONCOIN,The Open Network
+2023-12-01,okb-okb,-4.82,OKB,Okb
+2023-12-01,xmr-monero,-3.91,XMR,Monero
+2023-12-01,apt-aptos,33.64,APT,Aptos
+2023-12-01,inj-injective-protocol,99.25,INJ,Injective Protocol
+2023-12-01,near-near-protocol,93.12,NEAR,Near Protocol
+2023-12-01,tao-bittensor,-10.51,TAO,Bittensor
+2023-12-01,op-optimism,124.48,OP,Optimism
+2023-12-01,imx-immutable-x,47.87,IMX,Immutable X
+2023-12-01,tia-celestia,67.56,TIA,Celestia
+2023-12-01,fdusd-first-digital-usd,-0.06,FDUSD,First Digital Usd
+2023-12-01,ldo-lido-dao,10.9,LDO,Lido Dao
+2023-12-01,fil-filecoin,54.07,FIL,Filecoin
+2023-12-01,hbar-hedera-hashgraph,41.5,HBAR,Hedera Hashgraph
+2023-12-01,kas-kaspa,-18.78,KAS,Kaspa
+2023-12-01,arb-arbitrum,50.75,ARB,Arbitrum
+2023-12-01,stx-stacks,96.97,STX,Stacks
+2023-12-01,cro-cryptocom-chain,8.08,CRO,Cryptocom Chain
+2023-12-01,vet-vechain,52.38,VET,Vechain
+2023-12-01,mnt-mantle,17.88,MNT,Mantle
+2023-12-01,mkr-maker,9.83,MKR,Maker
+2023-12-01,pls-pulsechain,-4.52,PLS,Pulsechain
+2023-12-01,sui-sui,26.64,SUI,Sui
+2023-12-01,rndr-render-token,26.03,RNDR,Render Token
+2023-12-01,rune-thorchain,-20.04,RUNE,Thorchain
+2023-12-01,tusd-trueusd,-0.15,TUSD,Trueusd
+2023-12-01,hex-hex-from-pulsechain,-19.55,HEX,Hex From Pulsechain
+2023-12-01,grt-the-graph,23.3,GRT,The Graph
+2023-12-01,egld-elrond,50.25,EGLD,Elrond
+2023-12-01,bsv-bitcoin-sv,103.12,BSV,Bitcoin Sv
+2023-12-01,algo-algorand,60.09,ALGO,Algorand
+2023-12-01,aave-new,8.8,AAVE,New
+2023-12-01,ordi-ordinals,259.84,ORDI,Ordinals
+2023-12-01,qnt-quant,37.68,QNT,Quant
+2023-12-01,hnt-helium,132.51,HNT,Helium
+2023-12-01,mina-mina-protocol,80.53,MINA,Mina Protocol
+2023-12-01,sei-sei,126.07,SEI,Sei
+2023-12-01,plsx-pulsex,-9.84,PLSX,Pulsex
+2023-12-01,ftm-fantom,50.46,FTM,Fantom
+2023-12-01,sand-the-sandbox,43.92,SAND,The Sandbox
+2023-12-01,astr-astar,99.39,ASTR,Astar
+2023-12-01,theta-theta-token,25.69,THETA,Theta Token
+2023-12-01,axs-axie-infinity,36.47,AXS,Axie Infinity
+2023-12-01,xtz-tezos,19.73,XTZ,Tezos
+2023-12-01,snx-synthetix-network-token,13.06,SNX,Synthetix Network Token
+2023-12-01,wbt-whitebit,6.14,WBT,Whitebit
+2023-12-01,kcs-kucoin-token,30.22,KCS,Kucoin Token
+2023-12-01,chz-chiliz,16.48,CHZ,Chiliz
+2023-12-01,beam-beam-eth,54.1,BEAM,Beam Eth
+2023-12-01,cheelee-cheelee,34.68,CHEELEE,Cheelee
+2023-12-01,ape-apecoin,1.34,APE,Apecoin
+2023-12-01,bgb-bitget-token,8.74,BGB,Bitget Token
+2023-12-01,ron-ronin-token,67.74,RON,Ronin Token
+2023-12-01,mana-decentraland,18.63,MANA,Decentraland
+2023-12-01,cfx-conflux-network,27.27,CFX,Conflux Network
+2023-12-01,osmo-osmosis,118.06,OSMO,Osmosis
+2023-12-01,hex-hex,-15.53,HEX,Hex
+2023-12-01,bttc-bittorrent-chain,148.97,BTTC,Bittorrent Chain
+2023-12-01,manta-manta-network,,MANTA,Manta Network
+2023-12-01,kava-kava,11.38,KAVA,Kava
+2023-12-01,blur-blur,-8.29,BLUR,Blur
+2023-12-01,flr-flare-network,19.4,FLR,Flare Network
+2023-12-01,neo-neo,24.97,NEO,Neo
+2023-12-01,ftt-ftx-token,-24.96,FTT,Ftx Token
+2023-12-01,fxs-frax-share,11.29,FXS,Frax Share
+2023-12-01,flow-flow,35.33,FLOW,Flow
+2023-12-01,usdd-usdd,-1.38,USDD,Usdd
+2023-12-01,eos-eos,22.42,EOS,Eos
+2023-12-01,bonk-bonk,233.43,BONK,Bonk
+2023-12-01,klay-klaytn,22.61,KLAY,Klaytn
+2023-12-01,rose-oasis-network,65.76,ROSE,Oasis Network
+2023-12-01,miota-iota,29.84,MIOTA,Iota
+2023-12-01,ht-huobi-token,-7.56,HT,Huobi Token
+2023-12-01,frax-frax,0.04,FRAX,Frax
+2023-12-01,luna-terra,0.42,LUNA,Terra
+2023-12-01,woo-wootrade,78.47,WOO,Wootrade
+2023-12-01,akt-akash-network,46.32,AKT,Akash Network
+2023-12-01,cake-pancakeswap,48.7,CAKE,Pancakeswap
+2023-12-01,pendle-pendle,10.81,PENDLE,Pendle
+2023-12-01,gala-gala,16.88,GALA,Gala
+2023-12-01,pyth-pyth-network,-18.08,PYTH,Pyth Network
+2023-12-01,xec-ecash,28.19,XEC,Ecash
+2023-12-01,rpl-rocket-pool,11.07,RPL,Rocket Pool
+2023-12-01,gno-gnosis,-2.55,GNO,Gnosis
+2023-12-01,ar-arweave,14.76,AR,Arweave
+2023-12-01,ens-ethereum-name-service,12.79,ENS,Ethereum Name Service
+2023-12-01,xdc-xdc-network,20.5,XDC,Xdc Network
+2023-12-01,ico-axelar,65.71,ICO,Axelar
+2023-12-01,xaut-tether-gold,0.1,XAUT,Tether Gold
+2023-12-01,crv-curve-dao-token,5.97,CRV,Curve Dao Token
+2023-12-01,nexo-nexo,8.8,NEXO,Nexo
+2023-12-01,sc-siacoin,13.52,SC,Siacoin
+2023-12-01,fetch-ai,21.8,FETCH,Ai
+2023-12-01,gt-gatechain-token,19.36,GT,Gatechain Token
+2023-12-01,ftn-fasttoken,13.0,FTN,Fasttoken
+2023-12-01,twt-trust-wallet-token,8.91,TWT,Trust Wallet Token
+2023-12-01,rlb-rollbit-coin,-28.25,RLB,Rollbit Coin
+2023-12-01,1inch-1inch,22.07,1INCH,1Inch
+2023-12-01,btg-bitcoin-gold,37.43,BTG,Bitcoin Gold
+2023-12-01,paxg-pax-gold,-1.0,PAXG,Pax Gold
+2023-12-01,gmt-stepn,21.25,GMT,Stepn
+2023-12-01,metis-metis-token,259.45,METIS,Metis Token
+2023-12-01,radix-dlt,-23.9,RADIX,Dlt
+2023-12-01,mhc-metahash,21.06,MHC,Metahash
+2023-12-01,core-core-dao,9.81,CORE,Core Dao
+2023-12-01,gmx-gmx,8.68,GMX,Gmx
+2023-12-01,elf-aelf,9.32,ELF,Aelf
+2023-12-01,cspr-casper-network,47.82,CSPR,Casper Network
+2023-12-01,nft-apenft,37.61,NFT,Apenft
+2023-12-01,rbn-ribbon-finance,0.98,RBN,Ribbon Finance
+2023-12-01,alt-altlayer,,ALT,Altlayer
+2023-12-01,luna-terra-v2,4.38,LUNA,Terra V2
+2023-12-01,pepe-pepe,17.41,PEPE,Pepe
+2023-12-01,enj-enjin-coin,29.1,ENJ,Enjin Coin
+2023-12-01,kuji-kujira,23.21,KUJI,Kujira
+2023-12-01,iotx-iotex,100.9,IOTX,Iotex
+2023-12-01,gas-gas,-14.22,GAS,Gas
+2023-12-01,usdp-paxos-standard-token,0.08,USDP,Paxos Standard Token
+2023-12-01,zec-zcash,-9.83,ZEC,Zcash
+2023-12-01,pokt-pocket-network,45.92,POKT,Pocket Network
+2023-12-01,lend-ethlend,15.05,LEND,Ethlend
+2023-12-01,zil-zilliqa,12.52,ZIL,Zilliqa
+2023-12-01,celo-celo,41.34,CELO,Celo
+2023-12-01,uma-uma,15.07,UMA,Uma
+2023-12-01,deso-decentralized-social,277.13,DESO,Decentralized Social
+2023-12-01,agix-singularitynet,1.89,AGIX,Singularitynet
+2023-12-01,bat-basic-attention-token,13.4,BAT,Basic Attention Token
+2023-12-01,ksm-kusama,76.15,KSM,Kusama
+2023-12-01,orbr-orbler,36.19,ORBR,Orbler
+2023-12-01,hot-holo,55.73,HOT,Holo
+2023-12-01,xem-nem,6.37,XEM,Nem
+2023-12-01,mask-mask-network,3.6,MASK,Mask Network
+2023-12-01,strd-stride,38.21,STRD,Stride
+2023-12-01,lrc-loopring,32.16,LRC,Loopring
+2023-12-01,dash-dash,3.5,DASH,Dash
+2023-12-01,ray-raydium,182.4,RAY,Raydium
+2023-12-01,glmr-moonbeam,60.16,GLMR,Moonbeam
+2023-12-01,pyusd-paypal-usd,0.33,PYUSD,Paypal Usd
+2023-12-01,trb-tellor,153.49,TRB,Tellor
+2023-12-01,xch-chia-,45.21,XCH,Chia 
+2023-12-01,okt-okc-token,31.41,OKT,Okc Token
+2023-12-01,trac-origintrail,34.52,TRAC,Origintrail
+2023-12-01,qtum-qtum,21.8,QTUM,Qtum
+2023-12-01,super-superfarm,62.21,SUPER,Superfarm
+2023-12-01,dydx-dydx,-4.55,DYDX,Dydx
+2023-12-01,wld-worldcoin,51.97,WLD,Worldcoin
+2023-12-01,ethw-ethereum-pow,25.24,ETHW,Ethereum Pow
+2023-12-01,ilv-illuvium,-16.37,ILV,Illuvium
+2023-12-01,cvx-convex-finance,-9.54,CVX,Convex Finance
+2023-12-01,mx-mx-token,-6.25,MX,Mx Token
+2023-12-01,bdx-beldex,-7.97,BDX,Beldex
+2023-12-01,zrx-0x,-7.63,ZRX,0X
+2023-12-01,floki-floki-inu,7.03,FLOKI,Floki Inu
+2023-12-01,tfuel-theta-fuel,-3.03,TFUEL,Theta Fuel
+2023-12-01,storj-storj,-5.2,STORJ,Storj
+2023-12-01,jst-just,1.13,JST,Just
+2023-12-01,kda-kadena,122.51,KDA,Kadena
+2023-12-01,alusd-alchemixusd,0.02,ALUSD,Alchemixusd
+2023-12-01,ant-aragon,9.51,ANT,Aragon
+2023-12-01,azero-aleph-zero,20.3,AZERO,Aleph Zero
+2023-12-01,dcr-decred,24.22,DCR,Decred
+2023-12-01,sushi-sushi,1.54,SUSHI,Sushi
+2023-12-01,lcx-lcx,48.24,LCX,Lcx
+2023-12-01,rvn-ravencoin,12.86,RVN,Ravencoin
+2023-12-01,jasmy-jasmycoin,28.76,JASMY,Jasmycoin
+2023-12-01,waves-waves,25.42,WAVES,Waves
