@@ -32,7 +32,6 @@ jobs:
           chmod +x test.py
           ls -la
 
-
       - name: Run Python Script
         run: python test.py
 
