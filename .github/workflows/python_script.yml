@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python Script
-        run: python /test.py
+        run: python ../test.py
 
       - name: commit files
         run: |
