@@ -33,6 +33,10 @@ jobs:
           ls -la
 
       - name: Run Python Script
+        env:
+          COINPAPRIKA_APIKEY: ${{ secrets.COINPAPRIKA_APIKEY }}
+          DUNE_APIKEY: ${{ secrets.DUNE_APIKEY }}
+
         run: python ./python_scripts/main.py
 
       - name: commit files
