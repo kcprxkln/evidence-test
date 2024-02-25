@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Python Script
-        run: python evidence-test/python_scripts/src/main.py
+        run: python /python_scripts/main.py
 
       - name: commit files
         run: |
