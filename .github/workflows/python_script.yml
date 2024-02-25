@@ -21,9 +21,14 @@ jobs:
         run: python -m venv venv
       - name: Activate virtual environment
         run: source venv/bin/activate
-
+          
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Test folders
+        run: |
+          pwd
+          ls -la
 
       - name: Run Python Script
         run: python ../test.py
