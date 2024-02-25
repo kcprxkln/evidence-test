@@ -30,9 +30,11 @@ jobs:
           pwd
           ls -la
           chmod +x test.py
+          ls -la
+
 
       - name: Run Python Script
-        run: python /test.py
+        run: python test.py
 
       - name: commit files
         run: |
