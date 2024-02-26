@@ -27,14 +27,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Print Secrets
-        run: |
-          echo "COINPAPRIKA_APIKEY=${{ secrets.COINPAPRIKA_APIKEY }}" >> $GITHUB_ENV
-          echo "DUNE_APIKEY=${{ secrets.DUNE_APIKEY }}" >> $GITHUB_ENV
+        run: echo "COINPAPRIKA_APIKEY=${{ secrets.COINPAPRIKA_APIKEY }}" >> $GITHUB_ENV
       
       - name: Show Secrets
-        run: |
-          echo "COINPAPRIKA_APIKEY=$COINPAPRIKA_APIKEY"
-          echo "DUNE_APIKEY=$DUNE_APIKEY"
+        run: echo "COINPAPRIKA_APIKEY=$COINPAPRIKA_APIKEY"
 
       - name: Test folders and change permissions
         run: |
