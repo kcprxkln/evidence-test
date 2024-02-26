@@ -26,6 +26,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Print Secrets
+        run: |
+          echo "COINPAPRIKA_APIKEY=${{ secrets.COINPAPRIKA_APIKEY }}" >> $GITHUB_ENV
+          echo "DUNE_APIKEY=${{ secrets.DUNE_APIKEY }}" >> $GITHUB_ENV
+      
+      - name: Show Secrets
+        run: |
+          echo "COINPAPRIKA_APIKEY=$COINPAPRIKA_APIKEY"
+          echo "DUNE_APIKEY=$DUNE_APIKEY"
+
       - name: Test folders and change permissions
         run: |
           pwd
@@ -35,20 +45,9 @@ jobs:
 
       - name: Run Python Script
         env:
-          COINPAPRIKA_APIKEY: ${{ tsts.COINPAPRIKA_APIKEY }}
-          DUNE_APIKEY: ${{ tsts.DUNE_APIKEY }}
+          COINPAPRIKA_APIKEY: ${{ secrets.COINPAPRIKA_APIKEY }}
+          DUNE_APIKEY: ${{ secrets.DUNE_APIKEY }}
 
         run: python ./python_scripts/main.py
 
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
-
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+      
