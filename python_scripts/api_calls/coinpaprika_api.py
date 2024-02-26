@@ -54,6 +54,7 @@ class CoinpaprikaAPI():
         try:
             f_day = month.first_day
             l_day = month.last_day
+            print(self.api_key)
 
             with httpx.Client() as client:
                 btc_response = client.get(f'https://api-pro.coinpaprika.com/v1/coins/{self.btc_id}/ohlcv/historical?start={f_day}&end={l_day}', headers=self.headers)
