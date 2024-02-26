@@ -34,8 +34,8 @@ jobs:
 
       - name: Run Python Script
         env:
-          COINPAPRIKA_APIKEY: ${{ secrets.COINPAPRIKA_APIKEY }}
-          DUNE_APIKEY: ${{ secrets.DUNE_APIKEY }}
+          COINPAPRIKA_APIKEY: ${{ tsts.COINPAPRIKA_APIKEY }}
+          DUNE_APIKEY: ${{ tsts.DUNE_APIKEY }}
 
         run: python ./python_scripts/main.py
 
