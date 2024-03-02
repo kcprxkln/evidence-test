@@ -657,6 +657,7 @@ Volume from 10 biggest CEX / DEX for last 30 days.
 ```sql cex_vol_sum
 select sum(vol_30_day_usd) as "CEX Volume"
 from cex_data
+order by vol_30_day_usd desc
 limit 10
 ``` 
 
