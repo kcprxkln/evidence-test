@@ -654,12 +654,15 @@ limit 20
 # Crypto Exchanges
 Volume from 10 biggest CEX / DEX for last 30 days.
 
-```sql cex_vol_sum
-select sum(vol_30_day_usd) as "CEX Volume"
-from cex_data
-order by vol_30_day_usd desc
-limit 10
-``` 
+```sel cex_vol_sum
+SELECT SUM(subquery.vol_30_day_usd) AS "CEX Volume"
+FROM (
+    SELECT vol_30_day_usd
+    FROM cex_data
+    ORDER BY vol_30_day_usd DESC
+    LIMIT 10
+) AS subquery;
+```
 
 ```sql dex_vol_sum
 select sum(vol_30_day_usd) as "DEX Volume"
