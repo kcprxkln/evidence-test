@@ -14,7 +14,7 @@ class DuneAPI:
 
     def get_saving_directory(self) -> str:
         script_directory = os.path.dirname(os.path.abspath(__file__))
-        dir = os.path.join(script_directory, "../../data/csv/raw")
+        dir = os.path.join(script_directory, "../data/csv/raw")
         ensure_directory_exists(dir)
         return dir
 
