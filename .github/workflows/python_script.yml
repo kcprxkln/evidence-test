@@ -1,4 +1,4 @@
-name: Run Python Script Periodically
+name: Update Crypto Data
 
 on:
   schedule:
@@ -25,12 +25,6 @@ jobs:
           
       - name: Install dependencies
         run: pip install -r requirements.txt
-
-      - name: Print Secrets
-        run: echo "DUNE_APIKEY=${{ secrets.DUNE_APIKEY }}" >> $GITHUB_ENV
-      
-      - name: Show Secrets
-        run: echo "DUNE_APIKEY=$DUNE_APIKEY"
 
       - name: Test folders and change permissions
         run: |
