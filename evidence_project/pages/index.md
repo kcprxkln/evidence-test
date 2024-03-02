@@ -655,13 +655,13 @@ limit 20
 Volume from 10 biggest CEX / DEX for last 30 days.
 
 ```sql cex_vol_sum
-select sum(volume_30_days_usd) as "CEX Volume"
+select sum(vol_30_day_usd) as "CEX Volume"
 from cex_data
 limit 10
 ``` 
 
 ```sql dex_vol_sum
-select sum(volume_30_days_usd) as "DEX Volume"
+select sum(vol_30_day_usd) as "DEX Volume"
 from dex_data
 limit 10
 ``` 
@@ -688,10 +688,10 @@ Total volume of 10 biggest crypto centralized exchanges.
 ```sql cex_vol_rank
 select 
   name as 'name', 
-  volume_30_days_usd as 'volume'
+  vol_30_day_usd as 'volume'
 from 
   cex_data
-order by volume_30_days_usd desc
+order by vol_30_day_usd desc
 limit 10
 ```
 
@@ -714,10 +714,10 @@ Total volume of 10 biggest crypto decentralized exchanges.
 ```sql dex_vol_rank
 select 
   name as 'name', 
-  volume_30_days_usd as 'volume'
+  vol_30_day_usd as 'volume'
 from 
   dex_data
-order by volume_30_days_usd desc
+order by vol_30_day_usd desc
 limit 10
 ```
 
