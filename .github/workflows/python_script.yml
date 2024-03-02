@@ -24,7 +24,7 @@ jobs:
         run: source venv/bin/activate
           
       - name: Install dependencies
-        run: pip install -r /python_scripts/requirements.txt
+        run: pip install -r ./python_scripts/requirements.txt
 
       - name: Test folders and change permissions
         run: |
