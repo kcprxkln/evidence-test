@@ -1,201 +1,101 @@
 month,commits,symbol,coin_name
-2023-12-01,99,BTC,Bitcoin
-2023-12-01,55,ETH,Ethereum
-2023-12-01,0,USDT,Tether
-2023-12-01,0,BNB,Binance Coin
-2023-12-01,0,SOL,Solana
-2023-12-01,0,XRP,Xrp
-2023-12-01,0,USDC,Usd Coin
-2023-12-01,0,STETH,Lido Staked Ether
-2023-12-01,2,ADA,Cardano
-2023-12-01,0,AVAX,Avalanche
-2023-12-01,0,DOGE,Dogecoin
-2023-12-01,13,TRX,Tron
-2023-12-01,0,DOT,Polkadot
-2023-12-01,104,LINK,Chainlink
-2023-12-01,0,WETH,Weth
-2023-12-01,0,MATIC,Polygon
-2023-12-01,2,WBTC,Wrapped Bitcoin
-2023-12-01,0,SHIB,Shiba Inu
-2023-12-01,560,ICP,Internet Computer
-2023-12-01,0,LTC,Litecoin
-2023-12-01,0,DAI,Dai
-2023-12-01,114,BCH,Bitcoin Cash
-2023-12-01,0,LEO,Leo Token
-2023-12-01,0,UNI,Uniswap
-2023-12-01,0,ETC,Ethereum Classic
-2023-12-01,0,ATOM,Cosmos
-2023-12-01,42,XLM,Stellar
-2023-12-01,0,BTCB,Binance Bitcoin
-2023-12-01,0,TONCOIN,The Open Network
-2023-12-01,0,OKB,Okb
-2023-12-01,0,XMR,Monero
-2023-12-01,0,APT,Aptos
-2023-12-01,0,INJ,Injective Protocol
-2023-12-01,14,TAO,Bittensor
-2023-12-01,0,NEAR,Near Protocol
-2023-12-01,0,OP,Optimism
-2023-12-01,0,IMX,Immutable X
-2023-12-01,0,TIA,Celestia
-2023-12-01,0,FDUSD,First Digital Usd
-2023-12-01,5,LDO,Lido Dao
-2023-12-01,0,FIL,Filecoin
-2023-12-01,0,HBAR,Hedera Hashgraph
-2023-12-01,7,KAS,Kaspa
-2023-12-01,0,ARB,Arbitrum
-2023-12-01,0,STX,Stacks
-2023-12-01,0,CRO,Cryptocom Chain
-2023-12-01,8,VET,Vechain
-2023-12-01,0,MNT,Mantle
-2023-12-01,0,MKR,Maker
-2023-12-01,0,PLS,Pulsechain
-2023-12-01,0,SUI,Sui
-2023-12-01,0,RNDR,Render Token
-2023-12-01,0,RUNE,Thorchain
-2023-12-01,0,TUSD,Trueusd
-2023-12-01,0,HEX,Hex From Pulsechain
-2023-12-01,0,GRT,The Graph
-2023-12-01,0,RETH,Rocket Pool Eth
-2023-12-01,0,EGLD,Elrond
-2023-12-01,0,BSV,Bitcoin Sv
-2023-12-01,0,ALGO,Algorand
-2023-12-01,0,AAVE,New
-2023-12-01,0,ORDI,Ordinals
-2023-12-01,0,QNT,Quant
-2023-12-01,0,HNT,Helium
-2023-12-01,91,MINA,Mina Protocol
-2023-12-01,0,SEI,Sei
-2023-12-01,0,PLSX,Pulsex
-2023-12-01,0,FTM,Fantom
-2023-12-01,0,SAND,The Sandbox
-2023-12-01,12,ASTR,Astar
-2023-12-01,0,THETA,Theta Token
-2023-12-01,0,AXS,Axie Infinity
-2023-12-01,0,WBT,Whitebit
-2023-12-01,0,XTZ,Tezos
-2023-12-01,6,SNX,Synthetix Network Token
-2023-12-01,0,KCS,Kucoin Token
-2023-12-01,0,WPLS,Wrapped Pulse
-2023-12-01,0,CHZ,Chiliz
-2023-12-01,0,BEAM,Beam Eth
-2023-12-01,0,CHEELEE,Cheelee
-2023-12-01,0,APE,Apecoin
-2023-12-01,0,BGB,Bitget Token
-2023-12-01,0,RON,Ronin Token
-2023-12-01,15,MANA,Decentraland
-2023-12-01,0,CFX,Conflux Network
-2023-12-01,82,OSMO,Osmosis
-2023-12-01,0,HEX,Hex
-2023-12-01,0,BTTC,Bittorrent Chain
-2023-12-01,0,MANTA,Manta Network
-2023-12-01,6,KAVA,Kava
-2023-12-01,0,BLUR,Blur
-2023-12-01,0,FLR,Flare Network
-2023-12-01,11,NEO,Neo
-2023-12-01,0,FTT,Ftx Token
-2023-12-01,1,FXS,Frax Share
-2023-12-01,0,FLOW,Flow
-2023-12-01,0,USDD,Usdd
-2023-12-01,0,WBNB,Wrapped Bnb
-2023-12-01,0,EOS,Eos
-2023-12-01,0,BONK,Bonk
-2023-12-01,35,KLAY,Klaytn
-2023-12-01,0,ROSE,Oasis Network
-2023-12-01,0,MIOTA,Iota
-2023-12-01,0,HT,Huobi Token
-2023-12-01,1,FRAX,Frax
-2023-12-01,0,LUNA,Terra
-2023-12-01,0,WOO,Wootrade
-2023-12-01,0,AKT,Akash Network
-2023-12-01,0,CAKE,Pancakeswap
-2023-12-01,0,PENDLE,Pendle
-2023-12-01,0,GALA,Gala
-2023-12-01,0,PYTH,Pyth Network
-2023-12-01,0,XEC,Ecash
-2023-12-01,0,RPL,Rocket Pool
-2023-12-01,0,GNO,Gnosis
-2023-12-01,8,AR,Arweave
-2023-12-01,0,ENS,Ethereum Name Service
-2023-12-01,0,XDC,Xdc Network
-2023-12-01,0,ICO,Axelar
-2023-12-01,0,XAUT,Tether Gold
-2023-12-01,0,CRV,Curve Dao Token
-2023-12-01,0,NEXO,Nexo
-2023-12-01,0,SC,Siacoin
-2023-12-01,0,CBETH,Coinbase Wrapped Staked Eth
-2023-12-01,0,FETCH,Ai
-2023-12-01,0,GT,Gatechain Token
-2023-12-01,0,FTN,Fasttoken
-2023-12-01,0,RLB,Rollbit Coin
-2023-12-01,0,TWT,Trust Wallet Token
-2023-12-01,0,1INCH,1Inch
-2023-12-01,0,STSOL,Lido Staked Sol
-2023-12-01,0,BTG,Bitcoin Gold
-2023-12-01,0,PAXG,Pax Gold
-2023-12-01,0,GMT,Stepn
-2023-12-01,0,METIS,Metis Token
-2023-12-01,0,RADIX,Dlt
-2023-12-01,0,CORE,Core Dao
-2023-12-01,0,GMX,Gmx
-2023-12-01,0,CSPR,Casper Network
-2023-12-01,0,ELF,Aelf
-2023-12-01,0,NFT,Apenft
-2023-12-01,0,RBN,Ribbon Finance
-2023-12-01,0,ALT,Altlayer
-2023-12-01,0,LUNA,Terra V2
-2023-12-01,0,PEPE,Pepe
-2023-12-01,0,KUJI,Kujira
-2023-12-01,8,IOTX,Iotex
-2023-12-01,0,ENJ,Enjin Coin
-2023-12-01,11,GAS,Gas
-2023-12-01,0,MHC,Metahash
-2023-12-01,0,USDP,Paxos Standard Token
-2023-12-01,21,ZEC,Zcash
-2023-12-01,0,POKT,Pocket Network
-2023-12-01,0,LEND,Ethlend
-2023-12-01,18,ZIL,Zilliqa
-2023-12-01,0,CELO,Celo
-2023-12-01,0,UMA,Uma
-2023-12-01,0,DESO,Decentralized Social
-2023-12-01,0,AGIX,Singularitynet
-2023-12-01,0,BAT,Basic Attention Token
-2023-12-01,0,KSM,Kusama
-2023-12-01,0,XEM,Nem
-2023-12-01,0,HOT,Holo
-2023-12-01,0,ORBR,Orbler
-2023-12-01,0,MASK,Mask Network
-2023-12-01,0,STRD,Stride
-2023-12-01,0,LRC,Loopring
-2023-12-01,14,DASH,Dash
-2023-12-01,0,RAY,Raydium
-2023-12-01,0,GLMR,Moonbeam
-2023-12-01,0,PYUSD,Paypal Usd
-2023-12-01,0,TRB,Tellor
-2023-12-01,117,XCH,Chia 
-2023-12-01,0,OKT,Okc Token
-2023-12-01,21,TRAC,Origintrail
-2023-12-01,0,QTUM,Qtum
-2023-12-01,0,SUPER,Superfarm
-2023-12-01,0,WLD,Worldcoin
-2023-12-01,0,DYDX,Dydx
-2023-12-01,0,ETHW,Ethereum Pow
-2023-12-01,0,ILV,Illuvium
-2023-12-01,2,CVX,Convex Finance
-2023-12-01,0,MX,Mx Token
-2023-12-01,0,BDX,Beldex
-2023-12-01,0,ZRX,0X
-2023-12-01,0,FLOKI,Floki Inu
-2023-12-01,0,TFUEL,Theta Fuel
-2023-12-01,88,STORJ,Storj
-2023-12-01,0,JST,Just
-2023-12-01,0,KDA,Kadena
-2023-12-01,0,ALUSD,Alchemixusd
-2023-12-01,0,ANT,Aragon
-2023-12-01,0,AZERO,Aleph Zero
-2023-12-01,1,DCR,Decred
-2023-12-01,0,SUSHI,Sushi
-2023-12-01,0,SAVAX,Benqi Liquid Staked Avax
-2023-12-01,0,RVN,Ravencoin
-2023-12-01,0,LCX,Lcx
-2023-12-01,0,JASMY,Jasmycoin
-2023-12-01,0,WAVES,Waves
+2024-02-01,125,BTC,Bitcoin
+2024-02-01,95,ETH,Ethereum
+2024-02-01,0,USDT,Tether
+2024-02-01,0,BNB,Binance Coin
+2024-02-01,0,SOL,Solana
+2024-02-01,0,XRP,Xrp
+2024-02-01,0,STETH,Lido Staked Ether
+2024-02-01,0,USDC,Usd Coin
+2024-02-01,0,ADA,Cardano
+2024-02-01,71,DOGE,Dogecoin
+2024-02-01,0,AVAX,Avalanche
+2024-02-01,0,SHIB,Shiba Inu
+2024-02-01,0,WETH,Weth
+2024-02-01,3,TRX,Tron
+2024-02-01,213,LINK,Chainlink
+2024-02-01,0,DOT,Polkadot
+2024-02-01,0,MATIC,Polygon
+2024-02-01,0,WBTC,Wrapped Bitcoin
+2024-02-01,177,BCH,Bitcoin Cash
+2024-02-01,0,UNI,Uniswap
+2024-02-01,0,LTC,Litecoin
+2024-02-01,767,ICP,Internet Computer
+2024-02-01,0,DAI,Dai
+2024-02-01,0,ETC,Ethereum Classic
+2024-02-01,0,ATOM,Cosmos
+2024-02-01,0,FIL,Filecoin
+2024-02-01,0,BTCB,Binance Bitcoin
+2024-02-01,0,APT,Aptos
+2024-02-01,0,LEO,Leo Token
+2024-02-01,0,NEAR,Near Protocol
+2024-02-01,0,IMX,Immutable X
+2024-02-01,0,STX,Stacks
+2024-02-01,60,TAO,Bittensor
+2024-02-01,0,INJ,Injective Protocol
+2024-02-01,0,TONCOIN,The Open Network
+2024-02-01,0,OP,Optimism
+2024-02-01,0,HBAR,Hedera Hashgraph
+2024-02-01,0,KAS,Kaspa
+2024-02-01,48,XLM,Stellar
+2024-02-01,6,VET,Vechain
+2024-02-01,0,CRO,Cryptocom Chain
+2024-02-01,0,FDUSD,First Digital Usd
+2024-02-01,0,OKB,Okb
+2024-02-01,1,LDO,Lido Dao
+2024-02-01,0,GRT,The Graph
+2024-02-01,0,MNT,Mantle
+2024-02-01,0,RNDR,Render Token
+2024-02-01,0,TIA,Celestia
+2024-02-01,29,XMR,Monero
+2024-02-01,0,ARB,Arbitrum
+2024-02-01,0,PLS,Pulsechain
+2024-02-01,0,RETH,Rocket Pool Eth
+2024-02-01,7,BSV,Bitcoin Sv
+2024-02-01,0,SUI,Sui
+2024-02-01,0,THETA,Theta Token
+2024-02-01,0,MKR,Maker
+2024-02-01,0,RUNE,Thorchain
+2024-02-01,0,ALGO,Algorand
+2024-02-01,0,PEPE,Pepe
+2024-02-01,0,BEAM,Beam Eth
+2024-02-01,0,ORDI,Ordinals
+2024-02-01,0,EGLD,Elrond
+2024-02-01,20,AR,Arweave
+2024-02-01,0,AAVE,New
+2024-02-01,0,BONK,Bonk
+2024-02-01,0,HEX,Hex From Pulsechain
+2024-02-01,0,FLR,Flare Network
+2024-02-01,0,SEI,Sei
+2024-02-01,0,SAND,The Sandbox
+2024-02-01,0,QNT,Quant
+2024-02-01,409,MINA,Mina Protocol
+2024-02-01,0,FTM,Fantom
+2024-02-01,0,HNT,Helium
+2024-02-01,9,SNX,Synthetix Network Token
+2024-02-01,0,CHZ,Chiliz
+2024-02-01,0,APE,Apecoin
+2024-02-01,0,AXS,Axie Infinity
+2024-02-01,0,BTTC,Bittorrent Chain
+2024-02-01,0,FETCH,Ai
+2024-02-01,0,STRK,Starknet
+2024-02-01,0,XTZ,Tezos
+2024-02-01,0,PLSX,Pulsex
+2024-02-01,30,MANA,Decentraland
+2024-02-01,0,BGB,Bitget Token
+2024-02-01,0,TUSD,Trueusd
+2024-02-01,0,GALA,Gala
+2024-02-01,0,FLOW,Flow
+2024-02-01,0,KCS,Kucoin Token
+2024-02-01,0,ICO,Axelar
+2024-02-01,0,LUNA,Terra
+2024-02-01,29,NEO,Neo
+2024-02-01,0,FLOKI,Floki Inu
+2024-02-01,0,WPLS,Wrapped Pulse
+2024-02-01,0,WBT,Whitebit
+2024-02-01,0,AGIX,Singularitynet
+2024-02-01,0,WLD,Worldcoin
+2024-02-01,28,KLAY,Klaytn
+2024-02-01,0,AKT,Akash Network
+2024-02-01,0,ROSE,Oasis Network
+2024-02-01,0,BLUR,Blur

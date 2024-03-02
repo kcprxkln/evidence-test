@@ -1,16 +1,16 @@
-name,volume_30_days_usd
-uniswap-v3,23342861987
-uniswap-v2,3269220688
-curve-finance,3576881569
-pancakeswap-v3-bsc,3063618355
-pancakeswap-v2,1634530724
-uniswap-arbitrum,5939460933
-uniswap-polygon-network,1713704872
-uniswap-optimism,830545272
-pancakeswap-v3-ethereum,740033177
-trader-joe,132308532
-trader-joe-v2-arbitrum,3494180
-camelot-v3,1595220685
-camelot,96259392
-balancer-v2,835651044
-balancer,156101769
+url_name,vol_30_day_usd,name
+uniswap-v3,24292088093,Uniswap V3
+uniswap-v2,4014383807,Uniswap V2
+curve-finance,3058278897,Curve Finance
+pancakeswap-v3-bsc,4329317934,Pancakeswap V3 Bsc
+pancakeswap-v2,1648591839,Pancakeswap V2
+uniswap-arbitrum,5518310350,Uniswap Arbitrum
+uniswap-polygon-network,2162135075,Uniswap Polygon Network
+uniswap-optimism,822011063,Uniswap Optimism
+pancakeswap-v3-ethereum,694039017,Pancakeswap V3 Ethereum
+trader-joe,130286426,Trader Joe
+trader-joe-v2-arbitrum,1143525,Trader Joe V2 Arbitrum
+camelot-v3,1599043335,Camelot V3
+camelot,28995328,Camelot
+balancer-v2,1233246257,Balancer V2
+balancer,46848369,Balancer
