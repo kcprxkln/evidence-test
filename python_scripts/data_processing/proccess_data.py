@@ -7,9 +7,9 @@ from datetime import datetime
 def get_dir_prefix(type: str) -> str:
     script_directory = os.path.dirname(os.path.abspath(__file__))
     if type == "source":
-        dir_prefix = os.path.join(script_directory, "../../data/csv/raw/")
+        dir_prefix = os.path.join(script_directory, "../data/csv/raw/")
     elif type == "target":
-        dir_prefix = os.path.join(script_directory, "../../../sources/crypto_data/")
+        dir_prefix = os.path.join(script_directory, "../../sources/crypto_data/")
     return dir_prefix
 
 source_dir_prefix = get_dir_prefix("source")
