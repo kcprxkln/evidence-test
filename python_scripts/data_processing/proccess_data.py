@@ -9,7 +9,7 @@ def get_dir_prefix(type: str) -> str:
     if type == "source":
         dir_prefix = os.path.join(script_directory, "../data/csv/raw/")
     elif type == "target":
-        dir_prefix = os.path.join(script_directory, "../../sources/crypto_data/")
+        dir_prefix = os.path.join(script_directory, "../../evidence_project/sources/crypto_data/")
     return dir_prefix
 
 source_dir_prefix = get_dir_prefix("source")
