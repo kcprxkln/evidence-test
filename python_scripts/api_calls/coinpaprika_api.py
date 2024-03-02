@@ -23,7 +23,7 @@ class CoinpaprikaAPI():
     
     def get_saving_directory(self) -> str:
         script_directory = os.path.dirname(os.path.abspath(__file__))
-        dir_path = os.path.join(script_directory, "../../data/csv/raw")
+        dir_path = os.path.join(script_directory, "../data/csv/raw")
         ensure_directory_exists(dir_path)
         return dir_path
     
