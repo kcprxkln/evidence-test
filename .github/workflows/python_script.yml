@@ -1,0 +1,54 @@
+name: Update Crypto Data
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11.4
+
+      - name: Create virtual environment
+        run: python -m venv venv
+        
+      - name: Activate virtual environment
+        run: source venv/bin/activate
+          
+      - name: Install dependencies
+        run: pip install -r ./python_scripts/requirements.txt
+
+      - name: Test folders and change permissions
+        run: |
+          pwd
+          ls -la
+          chmod +x ./python_scripts/main.py
+          ls -la
+
+      - name: Run Python Script
+        env:
+          COINPAPRIKA_APIKEY: ${{ secrets.COINPAPRIKA_APIKEY }}
+          DUNE_APIKEY: ${{ secrets.DUNE_APIKEY }}
+
+        run: python ./python_scripts/main.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master

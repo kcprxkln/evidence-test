@@ -1,0 +1,191 @@
+month,coin_name,month_change,symbol,new_coin_name
+2024-02-01,btc-bitcoin,42.32,BTC,Bitcoin
+2024-02-01,eth-ethereum,45.24,ETH,Ethereum
+2024-02-01,usdt-tether,0.13,USDT,Tether
+2024-02-01,bnb-binance-coin,33.21,BNB,Binance Coin
+2024-02-01,sol-solana,28.49,SOL,Solana
+2024-02-01,xrp-xrp,15.87,XRP,Xrp
+2024-02-01,usdc-usd-coin,0.02,USDC,Usd Coin
+2024-02-01,doge-dogecoin,47.49,DOGE,Dogecoin
+2024-02-01,ada-cardano,28.92,ADA,Cardano
+2024-02-01,avax-avalanche,20.97,AVAX,Avalanche
+2024-02-01,shib-shiba-inu,39.11,SHIB,Shiba Inu
+2024-02-01,dot-polkadot,21.57,DOT,Polkadot
+2024-02-01,link-chainlink,12.3,LINK,Chainlink
+2024-02-01,trx-tron,21.61,TRX,Tron
+2024-02-01,matic-polygon,23.39,MATIC,Polygon
+2024-02-01,bch-bitcoin-cash,25.91,BCH,Bitcoin Cash
+2024-02-01,toncoin-the-open-network,19.81,TONCOIN,The Open Network
+2024-02-01,uni-uniswap,83.89,UNI,Uniswap
+2024-02-01,near-near-protocol,35.58,NEAR,Near Protocol
+2024-02-01,icp-internet-computer,8.26,ICP,Internet Computer
+2024-02-01,ltc-litecoin,18.39,LTC,Litecoin
+2024-02-01,apt-aptos,27.03,APT,Aptos
+2024-02-01,leo-leo-token,18.95,LEO,Leo Token
+2024-02-01,stx-stacks,93.44,STX,Stacks
+2024-02-01,dai-dai,-0.08,DAI,Dai
+2024-02-01,fil-filecoin,63.53,FIL,Filecoin
+2024-02-01,etc-ethereum-classic,18.39,ETC,Ethereum Classic
+2024-02-01,atom-cosmos,23.52,ATOM,Cosmos
+2024-02-01,rndr-render-token,63.78,RNDR,Render Token
+2024-02-01,imx-immutable-x,56.65,IMX,Immutable X
+2024-02-01,xlm-stellar,11.2,XLM,Stellar
+2024-02-01,cro-cryptocom-chain,34.15,CRO,Cryptocom Chain
+2024-02-01,tao-bittensor,38.04,TAO,Bittensor
+2024-02-01,okb-okb,5.96,OKB,Okb
+2024-02-01,op-optimism,24.45,OP,Optimism
+2024-02-01,hbar-hedera-hashgraph,62.93,HBAR,Hedera Hashgraph
+2024-02-01,grt-the-graph,82.09,GRT,The Graph
+2024-02-01,inj-injective-protocol,20.87,INJ,Injective Protocol
+2024-02-01,kas-kaspa,69.41,KAS,Kaspa
+2024-02-01,pepe-pepe,199.06,PEPE,Pepe
+2024-02-01,vet-vechain,67.71,VET,Vechain
+2024-02-01,ftm-fantom,30.15,FTM,Fantom
+2024-02-01,mkr-maker,5.16,MKR,Maker
+2024-02-01,rune-thorchain,25.4,RUNE,Thorchain
+2024-02-01,theta-theta-token,88.36,THETA,Theta Token
+2024-02-01,ldo-lido-dao,19.08,LDO,Lido Dao
+2024-02-01,mnt-mantle,52.21,MNT,Mantle
+2024-02-01,fdusd-first-digital-usd,-0.17,FDUSD,First Digital Usd
+2024-02-01,xmr-monero,-17.22,XMR,Monero
+2024-02-01,wif-dogwifcoin,268.34,WIF,Dogwifcoin
+2024-02-01,ar-arweave,217.5,AR,Arweave
+2024-02-01,floki-floki-inu,90.89,FLOKI,Floki Inu
+2024-02-01,tia-celestia,-2.21,TIA,Celestia
+2024-02-01,arb-arbitrum,9.04,ARB,Arbitrum
+2024-02-01,fetch-ai,170.07,FETCH,Ai
+2024-02-01,sui-sui,9.77,SUI,Sui
+2024-02-01,algo-algorand,33.41,ALGO,Algorand
+2024-02-01,cfx-conflux-network,23.85,CFX,Conflux Network
+2024-02-01,gala-gala,82.8,GALA,Gala
+2024-02-01,aave-new,26.18,AAVE,New
+2024-02-01,beam-beam-eth,88.25,BEAM,Beam Eth
+2024-02-01,bsv-bitcoin-sv,15.34,BSV,Bitcoin Sv
+2024-02-01,pls-pulsechain,23.75,PLS,Pulsechain
+2024-02-01,egld-elrond,12.66,EGLD,Elrond
+2024-02-01,qnt-quant,11.09,QNT,Quant
+2024-02-01,jup-jupiter-exchange-token,-8.67,JUP,Jupiter Exchange Token
+2024-02-01,strk-starknet,-10.37,STRK,Starknet
+2024-02-01,sand-the-sandbox,37.77,SAND,The Sandbox
+2024-02-01,bonk-bonk,106.24,BONK,Bonk
+2024-02-01,bttc-bittorrent-chain,53.42,BTTC,Bittorrent Chain
+2024-02-01,snx-synthetix-network-token,32.67,SNX,Synthetix Network Token
+2024-02-01,axs-axie-infinity,36.18,AXS,Axie Infinity
+2024-02-01,sei-sei,29.78,SEI,Sei
+2024-02-01,dydx-dydx-chain,,DYDX,Dydx Chain
+2024-02-01,pyth-pyth-network,40.49,PYTH,Pyth Network
+2024-02-01,agix-singularitynet,166.21,AGIX,Singularitynet
+2024-02-01,kcs-kucoin-token,19.14,KCS,Kucoin Token
+2024-02-01,flow-flow,45.84,FLOW,Flow
+2024-02-01,xec-ecash,21.62,XEC,Ecash
+2024-02-01,ordi-ordinals,22.33,ORDI,Ordinals
+2024-02-01,mina-mina-protocol,5.82,MINA,Mina Protocol
+2024-02-01,bgb-bitget-token,55.18,BGB,Bitget Token
+2024-02-01,wld-worldcoin,221.83,WLD,Worldcoin
+2024-02-01,ron-ronin-token,-4.42,RON,Ronin Token
+2024-02-01,rbn-ribbon-finance,66.4,RBN,Ribbon Finance
+2024-02-01,flr-flare-network,105.52,FLR,Flare Network
+2024-02-01,xtz-tezos,25.8,XTZ,Tezos
+2024-02-01,chz-chiliz,36.38,CHZ,Chiliz
+2024-02-01,mana-decentraland,50.65,MANA,Decentraland
+2024-02-01,akt-akash-network,76.79,AKT,Akash Network
+2024-02-01,ape-apecoin,26.76,APE,Apecoin
+2024-02-01,wbt-whitebit,19.76,WBT,Whitebit
+2024-02-01,ico-axelar,65.97,ICO,Axelar
+2024-02-01,hex-hex-from-pulsechain,8.9,HEX,Hex From Pulsechain
+2024-02-01,luna-terra,46.55,LUNA,Terra
+2024-02-01,msol-marinade-staked-sol,28.97,MSOL,Marinade Staked Sol
+2024-02-01,hnt-helium,24.89,HNT,Helium
+2024-02-01,neo-neo,27.58,NEO,Neo
+2024-02-01,eos-eos,22.51,EOS,Eos
+2024-02-01,jasmy-jasmycoin,306.76,JASMY,Jasmycoin
+2024-02-01,dydx-dydx,24.86,DYDX,Dydx
+2024-02-01,plsx-pulsex,13.94,PLSX,Pulsex
+2024-02-01,cake-pancakeswap,25.9,CAKE,Pancakeswap
+2024-02-01,aioz-aioz-network,86.56,AIOZ,Aioz Network
+2024-02-01,kava-kava,20.13,KAVA,Kava
+2024-02-01,rose-oasis-network,46.89,ROSE,Oasis Network
+2024-02-01,klay-klaytn,27.09,KLAY,Klaytn
+2024-02-01,ckb-nervos-network,265.41,CKB,Nervos Network
+2024-02-01,gno-gnosis,80.67,GNO,Gnosis
+2024-02-01,miota-iota,19.65,MIOTA,Iota
+2024-02-01,btg-bitcoin-gold,15.63,BTG,Bitcoin Gold
+2024-02-01,cheelee-cheelee,16.29,CHEELEE,Cheelee
+2024-02-01,luna-terra-v2,17.05,LUNA,Terra V2
+2024-02-01,blur-blur,17.44,BLUR,Blur
+2024-02-01,osmo-osmosis,-2.2,OSMO,Osmosis
+2024-02-01,pendle-pendle,24.11,PENDLE,Pendle
+2024-02-01,dym-dymension-iou,22.1,DYM,Dymension Iou
+2024-02-01,woo-wootrade,50.88,WOO,Wootrade
+2024-02-01,crv-curve-dao-token,34.28,CRV,Curve Dao Token
+2024-02-01,zrx-0x,18.98,ZRX,0X
+2024-02-01,gt-gatechain-token,6.63,GT,Gatechain Token
+2024-02-01,astr-astar,-12.42,ASTR,Astar
+2024-02-01,nexo-nexo,55.51,NEXO,Nexo
+2024-02-01,manta-manta-network,-12.31,MANTA,Manta Network
+2024-02-01,bome-book-of-meme,,BOME,Book Of Meme
+2024-02-01,usdd-usdd,0.74,USDD,Usdd
+2024-02-01,iotx-iotex,45.29,IOTX,Iotex
+2024-02-01,radix-dlt,8.41,RADIX,Dlt
+2024-02-01,ftt-ftx-token,-5.11,FTT,Ftx Token
+2024-02-01,enj-enjin-coin,49.22,ENJ,Enjin Coin
+2024-02-01,ens-ethereum-name-service,19.57,ENS,Ethereum Name Service
+2024-02-01,frax-frax,0.46,FRAX,Frax
+2024-02-01,1inch-1inch,33.57,1INCH,1Inch
+2024-02-01,core-core-dao,36.41,CORE,Core Dao
+2024-02-01,rpl-rocket-pool,8.54,RPL,Rocket Pool
+2024-02-01,tusd-trueusd,1.25,TUSD,Trueusd
+2024-02-01,super-superfarm,103.95,SUPER,Superfarm
+2024-02-01,lpt-livepeer,90.76,LPT,Livepeer
+2024-02-01,ocean-ocean-protocol,103.4,OCEAN,Ocean Protocol
+2024-02-01,prime-echelon-prime,82.06,PRIME,Echelon Prime
+2024-02-01,fxs-frax-share,-8.88,FXS,Frax Share
+2024-02-01,meme-memecoin,43.07,MEME,Memecoin
+2024-02-01,zil-zilliqa,37.4,ZIL,Zilliqa
+2024-02-01,twt-trust-wallet-token,26.15,TWT,Trust Wallet Token
+2024-02-01,celo-celo,61.66,CELO,Celo
+2024-02-01,hot-holo,44.8,HOT,Holo
+2024-02-01,xdc-xdc-network,-5.72,XDC,Xdc Network
+2024-02-01,ftn-fasttoken,15.36,FTN,Fasttoken
+2024-02-01,nft-apenft,21.64,NFT,Apenft
+2024-02-01,gmt-stepn,23.21,GMT,Stepn
+2024-02-01,alt-altlayer,34.62,ALT,Altlayer
+2024-02-01,lrc-loopring,23.64,LRC,Loopring
+2024-02-01,xaut-tether-gold,-0.17,XAUT,Tether Gold
+2024-02-01,tfuel-theta-fuel,73.49,TFUEL,Theta Fuel
+2024-02-01,sc-siacoin,8.11,SC,Siacoin
+2024-02-01,metis-metis-token,45.79,METIS,Metis Token
+2024-02-01,ray-raydium,9.7,RAY,Raydium
+2024-02-01,glm-golem,80.62,GLM,Golem
+2024-02-01,zec-zcash,28.5,ZEC,Zcash
+2024-02-01,trac-origintrail,57.68,TRAC,Origintrail
+2024-02-01,ilv-illuvium,55.54,ILV,Illuvium
+2024-02-01,amp-amp,40.58,AMP,Amp
+2024-02-01,cspr-casper-network,13.95,CSPR,Casper Network
+2024-02-01,cfg-centrifuge,34.71,CFG,Centrifuge
+2024-02-01,dexe-dexe,110.61,DEXE,Dexe
+2024-02-01,bat-basic-attention-token,26.29,BAT,Basic Attention Token
+2024-02-01,orbr-orbler,58.1,ORBR,Orbler
+2024-02-01,om-mantra-dao,157.89,OM,Mantra Dao
+2024-02-01,elf-aelf,18.64,ELF,Aelf
+2024-02-01,mask-mask-network,34.51,MASK,Mask Network
+2024-02-01,zel-zelcash,78.17,ZEL,Zelcash
+2024-02-01,portal-portal,,PORTAL,Portal
+2024-02-01,xem-nem,16.48,XEM,Nem
+2024-02-01,one-harmony,72.85,ONE,Harmony
+2024-02-01,ethw-ethereum-pow,23.1,ETHW,Ethereum Pow
+2024-02-01,glmr-moonbeam,32.37,GLMR,Moonbeam
+2024-02-01,gas-gas,12.43,GAS,Gas
+2024-02-01,gmx-gmx,18.62,GMX,Gmx
+2024-02-01,qtum-qtum,27.37,QTUM,Qtum
+2024-02-01,mx-mx-token,4.71,MX,Mx Token
+2024-02-01,dash-dash,17.43,DASH,Dash
+2024-02-01,ssv-ssv-network,8.85,SSV,Ssv Network
+2024-02-01,xch-chia-,29.28,XCH,Chia 
+2024-02-01,waves-waves,27.36,WAVES,Waves
+2024-02-01,dcr-decred,33.45,DCR,Decred
+2024-02-01,paxg-pax-gold,-1.58,PAXG,Pax Gold
+2024-02-01,kda-kadena,31.36,KDA,Kadena
+2024-02-01,rsr-reserve-rights,88.39,RSR,Reserve Rights
+2024-02-01,sushi-sushi,43.93,SUSHI,Sushi
+2024-02-01,ksm-kusama,28.75,KSM,Kusama
