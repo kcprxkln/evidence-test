@@ -15,7 +15,7 @@ select
   close as price, 
   volume as volume
 from 
-  btc_data
+  PLACEHOLDER.btc_data
 order by date desc
 limit 1
 ```
@@ -23,7 +23,6 @@ limit 1
 <BigValue 
     data={btc_mo_end} 
     value='marketcap' 
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0.0,,,"B"'	
 />
@@ -31,7 +30,6 @@ limit 1
 <BigValue 
     data={btc_mo_end} 
     value='price'
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0'
 />
@@ -40,7 +38,6 @@ limit 1
 <BigValue 
     data={btc_mo_end} 
     value='volume' 
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0.0,,,"B"'	
 />
@@ -53,7 +50,7 @@ select
   date as date, 
   fee as fee
 from 
-  'btc_data'
+  PLACEHOLDER.btc_data
 ```
 
 ### Price 
@@ -160,7 +157,7 @@ select
   fee,
   date
 from
-  btc_data
+  PLACEHOLDER.btc_data
 ```
 
 <LineChart
@@ -177,7 +174,7 @@ from
 
 ```sql btc_liq
 select * 
-from btc_liquidity_data
+from PLACEHOLDER.btc_liquidity_data
 ```
 
 <Details title="Details">
@@ -217,7 +214,7 @@ from btc_liquidity_data
 select 
   active_addresses
 from 
-  'active_addresses'
+  PLACEHOLDER.active_addresses
 where 
   name = 'bitcoin'
 ```
@@ -237,7 +234,7 @@ select
   close as price, 
   volume as volume
 from 
-  eth_data
+  PLACEHOLDER.eth_data
 order by date desc
 limit 1
 ```
@@ -245,7 +242,6 @@ limit 1
 <BigValue 
     data={eth_mo_end} 
     value='marketcap' 
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0.0,,,"B"'	
 />
@@ -253,7 +249,6 @@ limit 1
 <BigValue 
     data={eth_mo_end} 
     value='price'
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0'
 />
@@ -262,7 +257,6 @@ limit 1
 <BigValue 
     data={eth_mo_end} 
     value='volume' 
-    sparkline='date'
     maxWidth='10em'
     fmt='$#,##0.0,,,"B"'	
 />
@@ -275,7 +269,7 @@ select
   date as date, 
   fee as fee
 from 
-  'eth_data'
+  PLACEHOLDER.eth_data
 ```
 
 ### Price 
@@ -421,7 +415,7 @@ Average daily Ethereum transaction fee. (in Gwei)
 
 ```sql eth_liq
 select * 
-from eth_liquidity_data
+from PLACEHOLDER.eth_liquidity_data
 ```
 
 
@@ -439,7 +433,7 @@ from eth_liquidity_data
 select 
   active_addresses
 from 
-  'active_addresses'
+  PLACEHOLDER.active_addresses
 where 
   name = 'ethereum'
 ```
@@ -457,7 +451,7 @@ select
   new_coin_name as coin_name, 
   month_change as change
 from 
-  coins_and_returns
+  PLACEHOLDER.coins_and_returns
 order by 
   month_change desc 
 limit 10
@@ -479,7 +473,7 @@ select
   new_coin_name as coin_name, 
   month_change as change
 from 
-  coins_and_returns
+  PLACEHOLDER.coins_and_returns
 order by 
   month_change desc 
 limit 1
@@ -496,7 +490,7 @@ select
   new_coin_name as coin_name, 
   month_change as change
 from 
-  coins_and_returns
+  PLACEHOLDER.coins_and_returns
 order by 
   month_change asc 
 limit 10
@@ -518,7 +512,7 @@ select
   new_coin_name as coin_name, 
   month_change as change
 from 
-  coins_and_returns
+  PLACEHOLDER.coins_and_returns
 order by 
   month_change asc 
 limit 1
@@ -534,37 +528,19 @@ Last month, the worst performing coin was **<Value data={biggest_loser_coin} col
 ```sql blockchains_data_v_a
 select 
   blockchain as blockchain, 
-  total_volume as volume, 
-  active_addresses as addresses
+  total_volume as volume
 from 
-  blockchain_tx_and_vol_data
-where 
-  active_addresses > 0
+  PLACEHOLDER.blockchain_tx_vol_data
 ```
-
-## Monthly volume / active addresses
-<BubbleChart 
-    data={blockchains_data_v_a} 
-    x=volume
-    y=addresses 
-    series=blockchain
-    size=volume
-    xAxisTitle=true 
-    yAxisTitle=true
-    yLog=true
-    colorPalette = {['#00FFFF', '#FF0000', '#008000', '#800080', '#FFA500', '#FFFF00', '#0000FF']}
-/>
 
 ## Volume
 
 ```sql blockchains_data
 select 
   blockchain as blockchain, 
-  total_volume as volume, 
-  active_addresses as addresses
+  total_volume as volume
 from 
-  blockchain_tx_and_vol_data
-where active_addresses > 0
+  PLACEHOLDER.blockchain_tx_vol_data
 ```
 
 
@@ -591,6 +567,13 @@ where active_addresses > 0
 
 ## Active addresses
 
+```sql active_addresses
+select 
+  active_addresses as active_addresses,
+  name as name
+from PLACEHOLDER.active_addresses
+```
+
 <Details title="Details">
     
     How it is being counted?
@@ -605,9 +588,9 @@ where active_addresses > 0
 </Details>
 
 <BarChart 
-    data={blockchains_data} 
-    x=blockchain
-    y=addresses
+    data={active_addresses} 
+    x=name
+    y=active_addresses
     yFmt='#,##0.00,,"M"'
     swapXY=true
     colorPalette = {['#9B59B6']}
@@ -636,7 +619,7 @@ Number of github commits for projects in the last month.
 
 ```sql commits
 select * 
-from project_commits_data
+from PLACEHOLDER.project_commits_data
 order by commits desc
 limit 20
 ```
@@ -656,13 +639,13 @@ Volume from 10 biggest CEX / DEX for last 30 days.
 
 ```sql cex_vol_sum
 select sum(vol_30_day_usd) as "CEX Volume"
-from cex_data
+from PLACEHOLDER.cex_data
 limit 10
 ``` 
 
 ```sql dex_vol_sum
 select sum(vol_30_day_usd) as "DEX Volume"
-from dex_data
+from PLACEHOLDER.dex_data
 limit 10
 ``` 
 
@@ -690,7 +673,7 @@ select
   name as 'name', 
   vol_30_day_usd as 'volume'
 from 
-  cex_data
+  PLACEHOLDER.cex_data
 order by vol_30_day_usd desc
 limit 10
 ```
@@ -716,7 +699,7 @@ select
   name as 'name', 
   vol_30_day_usd as 'volume'
 from 
-  dex_data
+  PLACEHOLDER.dex_data
 order by vol_30_day_usd desc
 limit 10
 ```

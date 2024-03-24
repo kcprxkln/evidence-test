@@ -29,6 +29,7 @@ class CoinpaprikaAPI():
     
     
     def get_list_of_coins(self) -> Dict[str, Any]:
+
         with httpx.Client() as client:
             response = client.get('https://api-pro.coinpaprika.com/v1/coins', headers=self.headers)
             response.raise_for_status()
