@@ -25,7 +25,7 @@ if __name__ == "__main__":
         os.makedirs(target_dir_prefix)
 
     # Set environment value used in the file creation and edition
-    # os.environ["NEW_MONTH_NAME"] = NEW_MONTH_ENV
+
     replace_placeholders_in_md_template(NEW_MONTH_ENV)
     add_data_connection_yaml_file(NEW_MONTH_ENV)
 
